@@ -21,8 +21,13 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <h2> API </h2>
+    <div className="coin-app">
+      <div className="coin-search">
+        <h1 className="coin-text">Search a crypto...</h1>
+        <form>
+          <input type="text" placeholder="Search" className="coin-input" />
+        </form>
+      </div>
     </div>
   );
 }
